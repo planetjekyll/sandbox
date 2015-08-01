@@ -9,10 +9,19 @@ title: "Orgs Example - orgs/jekyll.yml,octopress.yml"
 {% for org_hash in site.data.orgs %}
   {% assign org = org_hash[1] %}
   <li>
-    <a href="https://github.com/{{ org.username }}">
+    <a href="https://github.com/{{ org.github }}">
       {{ org.name }}
     </a>
     ({{ org.members | size }} members)
+    <ul>
+      {% for member in org.members %}
+      <li>
+        <a href="https://github.com/{{ member.github }}">
+           {{ member.name }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
   </li>
 {% endfor %}
 </ul>
