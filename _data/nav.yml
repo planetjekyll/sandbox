@@ -1,0 +1,25 @@
+#####################
+# nav.yml - Navigation Menu Example - Nested List of Key/Value Records
+
+- title: Home
+  href:  /
+
+- title: Learn
+  href:  /learning-resources/
+  subcategories:
+  - title: Learning topic one
+    href:  /learn1/
+  - title: Learning topic two
+    href:  /learn2/
+  - title: Learning topic three
+    href:  /learn3/
+
+- title: Tools
+  subcategories:
+  - title: Tools one
+    href:  /tools1/
+  - title: Tools two
+    href:  /tools2/
+
+- title: About Us
+  href:  /about-us/

@@ -1,5 +1,5 @@
 ---
-title: 'Book List Example - books.yml'
+title: "Book List Example - books.yml"
 ---
 
 
@@ -9,14 +9,17 @@ title: 'Book List Example - books.yml'
 {% for book in site.data.books %}
   <div>
   <a href="{{ book.book_url }}">
-    <img src="{{site.path}}/i/{{book.cover}}">
+    <img src="{{site.path}}/i/{{book.cover}}" style="height: 200px; width: auto;">
   </a>
-  {{ book.title }}
-  {% if book.edition %}
-    ({{ book.edition}})
-  {% endif %}
+  <b>{{ book.title }}
+     {% if book.edition %}
+     ({{ book.edition}})
+     {% endif %}
+  </b>
   by {{ book.author }};
-  {{ book.publisher }}, {{ book.date }}; {{ book.pages}}
+  {{ book.publisher }},
+  {{ book.date }};
+  {{ book.pages}}
   </div>
 {% endfor %}
 
