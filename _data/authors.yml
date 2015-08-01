@@ -1,5 +1,5 @@
 ##############
-# people.yml - Author List Example - Hash (Dictionary) of Key/Value Records
+# authors.yml - Author List Example - Hash (Dictionary) of Key/Value Records
 
 henry:
   name:    Dr. Henry Jekyll
@@ -8,4 +8,5 @@ henry:
 edward:
   name:    Edward Hyde
   twitter: edhyde
+
 

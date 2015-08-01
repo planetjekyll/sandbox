@@ -1,14 +1,46 @@
 ---
-title:  "Author List Example - people.yml"
+title:  "Author List Example - authors.yml"
 author: henry
 ---
 
 <h1>{{ page.title }}</h1>
 
-{% assign author = site.data.people[ page.author ] %}
+{% assign author = site.data.authors[page.author] %}
 
 by
 <a href="http://twitter.com/{{ author.twitter }}">
   {{ author.name }}
 </a>
+
+
+
+<hr>
+<h2>Debug</h2>
+
+<pre style="font-size: 70%">
+page.author: »{{ page.author }}«
+
+<!--
+  site.data.authors: »{{ site.data.authors }}«
+ -->
+
+site.data.authors['henry'].name:  »{{ site.data.authors['henry'].name }}«
+site.data.authors['edward'].name: »{{ site.data.authors['edward'].name }}«
+
+site.data.authors: 
+{% for author_hash in site.data.authors %}
+  {% assign author_key = author_hash[0] %}
+  {% assign author     = author_hash[1] %}
+  »{{ author_key }}«:
+    name:    »{{ author.name }}«  <!-- todo: how to acess name value in hash?? -->
+    twitter: »{{ author.twitter }}«
+
+  <!-- author_hash: »{{ author_hash }}« -->
+{% endfor %}
+
+
+<!--
+  todo: check - how to print/dump hash key possible; easier way??
+  -->
+</pre>
 
