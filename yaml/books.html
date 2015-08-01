@@ -9,7 +9,7 @@ title: "Book List Example - books.yml"
 {% for book in site.data.books %}
   <div>
   <a href="{{ book.book_url }}">
-    <img src="{{site.path}}/i/{{book.cover}}" style="height: 200px; width: auto;">
+    <img src="{{site.path}}/i/books/{{book.cover}}" style="height: 200px; width: auto;">
   </a>
   <b>{{ book.title }}
      {% if book.edition %}

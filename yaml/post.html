@@ -1,0 +1,14 @@
+---
+title:  "Author List Example - people.yml"
+author: henry
+---
+
+<h1>{{ page.title }}</h1>
+
+{% assign author = site.data.people[ page.author ] %}
+
+by
+<a href="http://twitter.com/{{ author.twitter }}">
+  {{ author.name }}
+</a>
+
