@@ -1,0 +1,11 @@
+###############################
+# orgs/jekyll.yml - Org Example #1 - Multi-File List of Key/Value Records
+
+username: jekyll
+name: Jekyll
+members:
+- name: Parker Moore
+  github: parkr
+- name: Jordon Bedwell
+  github: envygeeks
+

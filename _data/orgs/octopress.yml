@@ -1,0 +1,9 @@
+#############################
+# orgs/octopress.yml - Org Example #2 - Multi-File List of Key/Value Records
+
+username: octopress
+name: Octopress
+members:
+- name: Brandon Mathis
+  github: imathis
+
