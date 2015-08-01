@@ -1,0 +1,28 @@
+#######
+#  books.yml - Book List Example - List of Key/Value Records
+
+- title:     "Text Processing with Ruby: Extract Value from the Data That Surrounds You"
+  author:    Rob Miller
+  cover:     2015/text-processing-with-ruby.jpg
+  publisher: Pragmatic Bookshelf
+  date:      Nov 2015
+  pages:     200 pages (est)
+  book_url:  https://pragprog.com/book/rmtpruby/text-processing-with-ruby
+
+- title:     "Learn Ruby the Hard Way"
+  subtitle:  A Simple and Idiomatic Intro to the Imaginative World Of Computational Thinking with Code
+  edition:   3rd Edition
+  author:    Zed Shaw
+  cover:     2014/learn-ruby-the-hard-way.jpg
+  publisher: Addison-Wesley Professional (Zed Shaw's Hard Way Series)
+  date:      Dec 2014
+  pages:     336 pages
+  book_url:  http://www.informit.com/store/learn-ruby-the-hard-way
+
+- title:     "Sinatra: Up and Running - Ruby for the Web, Simply"
+  author:    Alan Harris, Konstantin Haase
+  cover:     2011/sinatra-up-and-running.jpg
+  publisher: O'Reilly Media
+  date:      Dec 2011
+  pages:     122 pages
+  book_url:  http://shop.oreilly.com/product/0636920019664.do

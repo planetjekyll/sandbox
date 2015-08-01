@@ -1,0 +1,22 @@
+---
+title: 'Book List Example - books.yml'
+---
+
+
+# {{ page.title }}
+
+
+{% for book in site.data.books %}
+  <div>
+  <a href="{{ book.book_url }}">
+    <img src="{{site.path}}/i/{{book.cover}}">
+  </a>
+  {{ book.title }}
+  {% if book.edition %}
+    ({{ book.edition}})
+  {% endif %}
+  by {{ book.author }};
+  {{ book.publisher }}, {{ book.date }}; {{ book.pages}}
+  </div>
+{% endfor %}
+

@@ -1,0 +1,25 @@
+###########
+#  site.title, site.url, site.path
+
+title: 'Planet Jekyll Sandbox'
+
+## note: in path do NOT include root (trailing slash) e.g. (/) - use empty string instead
+path:  '/sandbox'
+url:   'http://planetjekyll.github.io/sandbox'
+
+
+########
+# more settings
+
+markdown: kramdown
+
+
+
+exclude:
+- README.md
+
+
+
+safe: true
+lsi: false
+
