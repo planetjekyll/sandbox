@@ -19,9 +19,13 @@ title: Sandbox Example Site
 ## Kramdown (Markdown) Examples
 
 - [GitHub Flavored Markdown (gfm)](kramdown/gfm.html)
-
+- [Tables](kramdown/tables.html)
+- [Quotes](kramdown/quotes.html)
+- [Config / Settings](kramdown/config.html)
 
 ## Rouge (Syntax Highlighter) Examples
 
 - [Languages](rouge/lang.html)
+- [FizzBuzz](rouge/fizzbuzz.html)
+- [Liquid (w/ Highlighter and Raw Escape](rouge/liquid.html)
 
