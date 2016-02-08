@@ -16,3 +16,12 @@ title: Sandbox Example Site
 - [Orgs List Example - `orgs/jekyll.yml,octopress.yml`](yaml/orgs.html) - Multi-File List of Key/Value Records
 
 
+## Kramdown (Markdown) Examples
+
+- [GitHub Flavored Markdown (gfm)](kramdown/gfm.html)
+
+
+## Rouge (Syntax Highlighter) Examples
+
+- [Languages](rouge/lang.html)
+
