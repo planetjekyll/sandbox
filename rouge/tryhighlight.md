@@ -28,9 +28,7 @@ end
 ```
 
 
-
-{% highlight %}
-
+{% highlight ruby %}
 puts "hello ruby"
 
 class Hello
@@ -38,5 +36,4 @@ class Hello
       true
    end
 end
-
 {% endhighlight %}
