@@ -29,3 +29,7 @@ title: Sandbox Example Site
 - [FizzBuzz](rouge/fizzbuzz.html)
 - [Liquid (w/ Highlighter and Raw Escape](rouge/liquid.html)
 
+## More Examples
+
+- [Include Markdown Blocks inside Markdown Page](markdown/test.html)
+- [Include Markdown Blocks inside HTML Page](markdown/test2.html)
