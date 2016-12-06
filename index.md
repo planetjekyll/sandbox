@@ -18,10 +18,10 @@ title: Sandbox Example Site
 
 ## Kramdown (Markdown) Examples
 
-- [GitHub Flavored Markdown (gfm)](kramdown/gfm.html)
-- [Tables](kramdown/tables.html)
-- [Quotes](kramdown/quotes.html)
-- [Config / Settings](kramdown/config.html)
+- [GitHub Flavored Markdown (gfm)](kramdown/gfm.md)
+- [Tables](kramdown/tables.md)
+- [Quotes](kramdown/quotes.md)
+- [Config / Settings](kramdown/config.md)
 
 ## Rouge (Syntax Highlighter) Examples
 
