@@ -1,6 +1,8 @@
 ###
 ##  check if dot in name works e.g.
 ##     site.data.themes.to_a  is accessible ???
+###
+##    doesn't seem to work; use themes_to_a.yml instead for now
 
 - title: Hello Pages
   stars: 2
