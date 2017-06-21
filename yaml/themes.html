@@ -52,15 +52,23 @@ title: "Themes Example - Sort Hash Records by X (e.g. Stars)"
 
 
 
+
+<!--
+   note: 1.stars not working; sort same as sort or sort: 0
+ -->
+
 <h3>sort: 1.stars</h3>
 
-{% assign sorted_themes3 = (site.data.themes | sort: 1.'stars') %}
+{% assign sorted_themes3 = (site.data.themes | sort: "[1].stars") %}
 
 <div>
 {{ sorted_themes3 | jsonify }}
 </div>
 
 
+<!--
+   note: 1.stars not working; sort same as sort or sort: 0;  same as above
+ -->
 
 <h3>sort: 1.updated</h3>
 
