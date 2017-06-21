@@ -10,7 +10,7 @@ title: "Themes Example - Sort Hash Records by X (e.g. Stars)"
 {% for theme_hash in site.data.themes %}
   {% assign theme = theme_hash[1] %}
   <li>
-    {% theme.title %} {% theme.stars %}
+    {{ theme.title }} {{ theme.stars }}
   </li>
 {% endfor %}
 
