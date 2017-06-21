@@ -84,3 +84,11 @@ title: "Themes Example - Sort Hash Records by X (e.g. Stars)"
 <div>
 {{ site.data.themes | jsonify }}
 </div>
+
+<hr>
+
+<!-- see if dot in name works ?? -->
+
+<div>
+  {{ site.data.themes.to_a | inspect }}
+</div>
