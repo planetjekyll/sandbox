@@ -1,0 +1,28 @@
+###
+##  check if dot in name works e.g.
+##     site.data.themes.to_a  is accessible ???
+
+- title: Hello Pages
+  stars: 2
+  created: 2017-01-13 00:08:17.000000000 Z
+  updated: 2017-01-13 01:45:15.000000000 Z
+
+- title: Hello Jekyll
+  stars: 4
+  created: 2016-09-19 18:45:34.000000000 Z
+  updated: 2016-11-04 13:37:46.000000000 Z
+
+- title: Hello Minima
+  stars: 3
+  created: 2016-09-19 19:22:59.000000000 Z
+  updated: 2017-02-23 14:46:30.000000000 Z
+
+- title: Poole
+  stars: 2178
+  created: 2013-12-29 23:39:18.000000000 Z
+  updated: 2016-02-16 06:29:26.000000000 Z
+
+- title: Merlot
+  stars: 7
+  created: 2016-10-06 23:04:26.000000000 Z
+  updated: 2017-04-21 17:34:44.000000000 Z
