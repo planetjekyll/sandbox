@@ -27,6 +27,8 @@ title: "Themes Example - Sort Hash Records by X (e.g. Stars)"
 
 <hr>
 
+<h3>sort: 1.stars</h3>
+
 {% assign sorted_themes = (site.data.themes | sort: 1.stars) %}
 
 <div>
@@ -35,6 +37,8 @@ title: "Themes Example - Sort Hash Records by X (e.g. Stars)"
 
 <hr>
 
+<h3>sort: 0</h3>
+
 {% assign sorted_themes2 = (site.data.themes | sort: 0) %}
 
 <div>
@@ -42,6 +46,8 @@ title: "Themes Example - Sort Hash Records by X (e.g. Stars)"
 </div>
 
 <hr>
+
+<h3>sort: 1.updated</h3>
 
 {% assign sorted_themes3 = (site.data.themes | sort: 1.updated) %}
 
