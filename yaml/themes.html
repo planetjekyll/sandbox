@@ -1,0 +1,17 @@
+---
+title: "Themes Example - Sort Hash Records by X (e.g. Stars)"
+---
+
+<h1>{{ page.title }}</h1> 
+
+
+<ul>
+
+{% for theme_hash in site.data.themes %}
+  {% assign theme = theme_hash[1] %}
+  <li>
+    {% theme.title %} {% theme.stars %}
+  </li>
+{% endfor %}
+
+</ul>
