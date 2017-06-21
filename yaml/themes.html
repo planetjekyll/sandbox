@@ -35,7 +35,7 @@ title: "Themes Example - Sort Hash Records by X (e.g. Stars)"
 
 <hr>
 
-{% assign sorted_themes2 = (site.data.themes | sort: '1.stars') %}
+{% assign sorted_themes2 = (site.data.themes | sort: 0) %}
 
 <div>
 {{ sorted_themes2 | jsonify }}
@@ -43,7 +43,7 @@ title: "Themes Example - Sort Hash Records by X (e.g. Stars)"
 
 <hr>
 
-{% assign sorted_themes3 = (site.data.themes | sort: '1.updated') %}
+{% assign sorted_themes3 = (site.data.themes | sort: 1.updated) %}
 
 <div>
 {{ sorted_themes3 | jsonify }}
